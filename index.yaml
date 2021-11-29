@@ -13,4 +13,15 @@ entries:
     urls:
     - https://github.com/atrakic/helm-charts/releases/download/alpine-0.1.0/alpine-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-29T13:14:59.097689612Z"
+  common:
+  - apiVersion: v1
+    appVersion: "3.9"
+    created: "2021-11-29T15:11:20.738576318Z"
+    description: Common templates for helm charts. This chart is not deployable by
+      itself.
+    digest: 5704e93c333642684636a1ac0b76e955214a30cc643bb73f4ed19b8ead65d85d
+    name: common
+    urls:
+    - https://github.com/atrakic/helm-charts/releases/download/common-0.0.1/common-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-11-29T15:11:20.738582018Z"

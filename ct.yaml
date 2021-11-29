@@ -1,8 +1,15 @@
 # See https://github.com/helm/chart-testing#configuration
+# https://github.com/helm/chart-testing/blob/main/pkg/config/test_config.yaml
 remote: origin
 target-branch: main
 chart-dirs:
   - charts
 chart-repos:
   - atrakic=https://atrakic.github.io/helm-charts
-helm-extra-args: --timeout 600s
+# Adjust kind timeout limits      
+helm-extra-args: --timeout 800s
+validate-maintainers: false
+upgrade: true
+skip-missing-values: true
+excluded-charts:
+  - common

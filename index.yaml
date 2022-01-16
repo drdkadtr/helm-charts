@@ -1,27 +1,16 @@
 apiVersion: v1
 entries:
-  alpine:
-  - apiVersion: v1
-    appVersion: "3.9"
-    created: "2021-11-29T13:14:59.097679712Z"
-    description: Deploy a basic Alpine Linux pod
-    digest: 0df322fb9a3367f3b78ab1b2f98f29ce4eed1e45371224ce947f0da2bf071a42
+  example-v2:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-01-16T10:36:39.826849846Z"
+    description: A Helm chart for Kubernetes
+    digest: 08556a15939efc4a8870c7458a598b20fd2f5f84204f3a759fa016ed4213bfb7
     home: https://helm.sh/helm
-    name: alpine
+    name: example-v2
     sources:
-    - https://github.com/helm/helm
+    - https://github.com/drdkadtr/helm-charts
     urls:
-    - https://github.com/atrakic/helm-charts/releases/download/alpine-0.1.0/alpine-0.1.0.tgz
-    version: 0.1.0
-  common:
-  - apiVersion: v1
-    appVersion: "3.9"
-    created: "2021-11-29T15:11:20.738576318Z"
-    description: Common templates for helm charts. This chart is not deployable by
-      itself.
-    digest: 5704e93c333642684636a1ac0b76e955214a30cc643bb73f4ed19b8ead65d85d
-    name: common
-    urls:
-    - https://github.com/atrakic/helm-charts/releases/download/common-0.0.1/common-0.0.1.tgz
-    version: 0.0.1
-generated: "2021-11-29T15:11:20.738582018Z"
+    - https://github.com/drdkadtr/helm-charts/releases/download/example-v2-0.2.7/example-v2-0.2.7.tgz
+    version: 0.2.7
+generated: "2022-01-16T10:36:39.826855446Z"

@@ -4,9 +4,9 @@ This repository hosts my [Helm](https://helm.sh) charts.
 
 # Usage
 
-```
-$ helm repo add drdkadtr https://drdkadtr.github.io/helm-charts/
-$ helm repo update
-$ helm search repo drdkadtr
-$ helm install my-release drdkadtr/<chart>
+```terminal
+helm repo add drdkadtr https://drdkadtr.github.io/helm-charts/
+helm repo update
+helm search repo drdkadtr
+helm install my-release drdkadtr/<chart>
 ```

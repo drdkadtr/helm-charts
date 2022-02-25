@@ -1,15 +1,23 @@
 # See https://github.com/helm/chart-testing#configuration
 # https://github.com/helm/chart-testing/blob/main/pkg/config/test_config.yaml
+
+# Detect changes to a helm chart by comparing with this remote/branch.
 remote: origin
 target-branch: main
+
+# What to check
+validate-maintainers: false
+skip-missing-values: true
+helm-extra-args: --timeout 800s
+
 chart-dirs:
   - charts
-chart-repos:
-  - atrakic=https://atrakic.github.io/helm-charts
-# Adjust kind timeout limits      
-helm-extra-args: --timeout 800s
-validate-maintainers: false
-upgrade: true
-skip-missing-values: true
+
+# Remove from list when test is passed:
 excluded-charts:
   - common
+  - root
+
+# Remote chart repositories to be used for the tests
+#chart-repos:
+#  - atrakic=https://atrakic.github.io/helm-charts

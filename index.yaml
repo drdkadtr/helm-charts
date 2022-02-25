@@ -26,4 +26,15 @@ entries:
     urls:
     - https://github.com/drdkadtr/helm-charts/releases/download/example-v2-0.2.7/example-v2-0.2.7.tgz
     version: 0.2.7
-generated: "2022-01-16T17:48:58.102004139Z"
+  guestbook:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-02-25T22:58:25.490249433Z"
+    description: A Helm chart for Kubernetes
+    digest: 774a9e3bb41571189364d92a9be09ee1a6ea4951820d3392120d31bacaa0b085
+    name: guestbook
+    type: application
+    urls:
+    - https://github.com/drdkadtr/helm-charts/releases/download/guestbook-0.1.0/guestbook-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-25T22:58:25.490254533Z"

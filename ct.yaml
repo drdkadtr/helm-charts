@@ -6,18 +6,12 @@ remote: origin
 target-branch: main
 
 # What to check
+check-version-increment: true
 validate-maintainers: false
 skip-missing-values: true
+upgrade: true
 helm-extra-args: --timeout 800s
-
 chart-dirs:
   - charts
-
-# Remove from list when test is passed:
 excluded-charts:
   - common
-  - root
-
-# Remote chart repositories to be used for the tests
-#chart-repos:
-#  - atrakic=https://atrakic.github.io/helm-charts

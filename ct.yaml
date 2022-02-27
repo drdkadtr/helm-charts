@@ -14,4 +14,4 @@ helm-extra-args: --timeout 800s
 chart-dirs:
   - charts
 excluded-charts:
-  - common
+  - root

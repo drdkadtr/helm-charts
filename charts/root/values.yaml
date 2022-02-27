@@ -11,3 +11,7 @@ spec:
     targetRevision: HEAD
 metadata:
   labels: {}
+
+# Apps
+demo:
+  enabled: false

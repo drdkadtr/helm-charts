@@ -49,6 +49,7 @@ jobs:
           # argo
           kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-cd/master/manifests/crds/application-crd.yaml
           kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-cd/master/manifests/crds/appproject-crd.yaml          
+          kubectl create namespace argocd
 
       - name: Run chart-testing (install)
         if: steps.list-changed.outputs.changed == 'true'

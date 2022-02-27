@@ -13,5 +13,5 @@ upgrade: true
 helm-extra-args: --timeout 800s
 chart-dirs:
   - charts
-excluded-charts:
-  - root
+#excluded-charts:
+#  - root

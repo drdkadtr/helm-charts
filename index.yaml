@@ -51,6 +51,16 @@ entries:
   root:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-02-27T10:51:17.097943338Z"
+    description: App of apps for ArgoCD
+    digest: 85c5aa83524dbc04c0913f4ea0251447b6949514d9c99cfc8ba358e977261944
+    name: root
+    type: application
+    urls:
+    - https://github.com/drdkadtr/helm-charts/releases/download/root-0.1.1/root-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-02-25T23:21:55.029194383Z"
     description: App of apps - Applications for ArgoCD
     digest: 69c014b91f7a2dad74d37d69eb69bb9a0f28054a40050aa8d990c5a0ec77569a
@@ -59,4 +69,4 @@ entries:
     urls:
     - https://github.com/drdkadtr/helm-charts/releases/download/root-0.1.0/root-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-25T23:21:55.029200883Z"
+generated: "2022-02-27T10:51:17.097952238Z"

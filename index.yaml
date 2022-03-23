@@ -15,6 +15,16 @@ entries:
     version: 0.1.1
   demo:
   - apiVersion: v2
+    appVersion: 1.21.6
+    created: "2022-03-23T10:01:38.822217121Z"
+    description: A Helm chart for Kubernetes
+    digest: 284c8d29eeaf804b4668b098151530e0c98ea91ff813c2132fe86c88cd8edeab
+    name: demo
+    type: application
+    urls:
+    - https://github.com/drdkadtr/helm-charts/releases/download/demo-0.1.2/demo-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-03-23T09:38:56.430321996Z"
     description: A Helm chart for Kubernetes
@@ -89,4 +99,4 @@ entries:
     urls:
     - https://github.com/drdkadtr/helm-charts/releases/download/root-0.1.0/root-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-23T09:38:56.430332396Z"
+generated: "2022-03-23T10:01:38.822234421Z"

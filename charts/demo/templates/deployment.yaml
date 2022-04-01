@@ -59,3 +59,15 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+      {{- if (or .Values.configMapName) }}
+          volumeMounts:
+          {{- if .Values.configMapName }}
+            - mountPath: /usr/share/nginx/html/
+              name: {{ .Chart.Name }}-file
+              readOnly: true
+          {{- end }}
+      volumes:
+        - name: {{ .Chart.Name }}-file
+          configMap:
+            name: {{ .Values.configMapName }}
+      {{- end }}
